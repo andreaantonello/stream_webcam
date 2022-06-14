@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.startStopWebCam {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 10px;
+  width: calc(100vw - 20px);
+  z-index: 999;
+}
+
+.WebCamButton {
+  width: 100px;
+  margin: 0 10px;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
